@@ -1,0 +1,123 @@
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+#link1 a {
+    text-decoration: underline;
+    color: black;
+}
+    
+#link1 a:visited {
+    color: black;
+    text-decoration: underline;
+}
+    
+#link1 a:hover {
+    color: brown;
+    text-decoration: underline;
+}
+    
+#link1 a:active {
+    color: brown;
+    text-decoration: underline;
+}
+
+/*--------------------------------------------*/
+#link2 a {
+    
+    color: rgb(197, 184, 184);
+    text-decoration: underline rgb(43, 40, 40);
+}
+
+#link2 a:visited {
+    color: rgb(247, 236, 236);
+    text-decoration: underline rgb(43, 40, 40);
+}
+    
+#link2 a:hover {
+    color: rgb(247, 236, 236);
+    text-decoration: underline rgb(43, 40, 40);
+}
+    
+#link2 a:active {
+    color: rgb(247, 236, 236);
+    text-decoration: underline rgb(43, 40, 40);
+}
+
+.giua {
+    display: flex;
+    justify-content: center;
+}
+
+.maudo {
+    width: 3%;
+    height: 20px;
+    background-color: red;
+}
+
+.mautrang {
+    width: 3%;
+    height: 20px;
+    background-color: white;
+}
+
+.maudofull{
+    width: 100%;
+    height: 100px;
+    background-color: red;
+}
+
+.do_dam {
+    color : white;
+    text-align: center;
+    font-size: 20px;
+}
+
+.ghi_chu {
+    align-content: center;
+}
+
+.lapday {
+    object-fit: cover;
+}
+
+.den{
+    background-color: rgb(43, 40, 40);
+    width: 100%;
+    height: 700px;
+    vertical-align: top;
+    color: rgb(197, 184, 184);
+}
+/* rgb(43, 40, 40) */
+
+.top-align {
+    vertical-align: top;
+  }
+
+.hr{
+    margin: auto;
+    background-color: rgb(197, 184, 184);
+    height: 2px;
+    width: 90%;
+}
+
+.mauchu{
+    color: rgb(197, 184, 184);
+}
+
+.can{
+    padding-top:10px;
+    text-align: center;
+}
+/*
+.giunguyen { giữ nguyên hàng khi di chuyển 
+    position: fixed;
+    top: 0px;
+    background-color: white;
+}
+*/
+.hang1{
+    width: 100%;
+    height: 150px;
+    text-align: center;
+}
